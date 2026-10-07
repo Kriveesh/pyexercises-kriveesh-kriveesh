@@ -17,3 +17,20 @@ print("Hello, world!")
 ```
 
 What is the function used to print output in Python?
+
+---
+## 2026-10-07 13:22, in .
+
+**Me:** how to concatenate two strings
+
+**Tutor:**
+
+String concatenation joins two strings into one.
+
+```python
+def join_strings(first: str, second: str) -> str:
+    # TODO: return the two strings joined together
+    pass
+```
+
+What is the operator used to concatenate strings in Python?
