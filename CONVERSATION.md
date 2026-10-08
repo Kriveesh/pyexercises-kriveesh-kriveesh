@@ -199,3 +199,28 @@ for position, fruit in enumerate(items):
 ```
 
 What is the second argument you can give to `enumerate()` to start counting from 1 instead of 0?
+
+---
+## 2026-10-08 15:46, in .
+
+**Me:** Why do we use break in the loop?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-08 15:47, in .
+
+**Me:** What does .lower() do?
+
+**Tutor:**
+
+The method `.lower()` converts all letters in a string to lowercase.
+
+```python
+text = "Hello World"
+lower_text = text.lower()  # TODO: What will lower_text contain?
+```
+
+What is the exact output of `lower_text` after running this code?
