@@ -100,3 +100,21 @@ print("CTR:", ctr, "CPA:", cpa)
 ```
 
 Which function converts a string to a floating-point number?
+
+---
+## 2026-10-08 15:08, in .
+
+**Me:** Why do we use % 2 to check whether a number is odd or even?
+
+**Tutor:**
+
+Concept: Using the modulus operator to determine odd or even.
+
+Pattern:
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    return number % 2 == 0
+```
+
+Question: What does `number % 2` return when `number` is even?
