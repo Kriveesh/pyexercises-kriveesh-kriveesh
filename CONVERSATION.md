@@ -78,3 +78,25 @@ print(clean_name(beta))   # expected: 'jane smith'
 ```
 
 What built-in string method removes whitespace from both ends?
+
+---
+## 2026-10-08 14:58, in .
+
+**Me:** Why do we use float() for the numbers?
+
+**Tutor:**
+
+Converting strings to floats lets you do math with numbers that came from a CSV.
+
+```python
+# TODO: replace the strings with real numbers from your file
+row = ["12345", "clicks", "42.5", "2.99"]
+impressions = float(row[0])   # TODO: index 0
+cost      = float(row[3])     # TODO: index 3
+
+ctr = (impressions / 1000) * 100
+cpa = cost / impressions
+print("CTR:", ctr, "CPA:", cpa)
+```
+
+Which function converts a string to a floating-point number?
