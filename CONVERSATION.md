@@ -180,3 +180,22 @@ removed = toy.pop( ??? )
 ```
 
 Which argument must you give to .pop()?
+
+---
+## 2026-10-08 15:35, in .
+
+**Me:** What does enumerate() do?
+
+**Tutor:**
+
+`enumerate()` gives you both the index and the value while you loop over a sequence.
+
+```python
+# TODO: replace the list with your real data later
+items = ["apple", "banana", "cherry"]
+
+for position, fruit in enumerate(items):
+    print(f"Item {position} is {fruit}")
+```
+
+What is the second argument you can give to `enumerate()` to start counting from 1 instead of 0?
