@@ -144,3 +144,22 @@ print(numbers)
 ```
 
 Question: which built-in function is called to sort a list in place?
+
+---
+## 2026-10-08 15:26, in .
+
+**Me:** What does reverse=True mean?
+
+**Tutor:**
+
+Sorting in descending order.
+The `reverse=True` argument tells the `sorted()` function to return the list from largest to smallest instead of smallest to largest.
+
+```python
+# TODO: change reverse to False and see what happens
+numbers = [3, 1, 4, 1, 5, 9]
+sorted_numbers = sorted(numbers, reverse=True)
+print(sorted_numbers)  # [9, 5, 4, 3, 1, 1]
+```
+
+Which built-in function uses `reverse=True` to sort a list in descending order?
