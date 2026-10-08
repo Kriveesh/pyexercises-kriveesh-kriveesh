@@ -53,3 +53,28 @@ print(______)
 ```
 
 What is the function used to get input from the user?
+
+---
+## 2026-10-08 10:36, in .
+
+**Me:** String transformation
+
+**Tutor:**
+
+String transformation means changing the case, removing spaces, or slicing parts of a string.
+
+```python
+def clean_name(raw: str) -> str:
+    # TODO: remove leading/trailing spaces and convert to lowercase
+    cleaned = raw
+    return cleaned
+
+# toy data
+alpha = "  John Doe  "
+beta  = "  JANE SMITH  "
+
+print(clean_name(alpha))  # expected: 'john doe'
+print(clean_name(beta))   # expected: 'jane smith'
+```
+
+What built-in string method removes whitespace from both ends?
