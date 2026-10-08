@@ -27,16 +27,17 @@ DELIVERABLE
 """
 
 # 1. In:User's name and age 
-# 2. Process:Concatenate two information I got from the user 
+# 2. Process:Concatenate two information that i got from the user
 # 3. Out:the concatenated string
-# 4. My two fields, and what I would do with them:
+# 4. My two fields, and what I would do with them:I used my both pieces of information to print in one sentence
 
 
 # Your code below
-name = input("Enter your name")
-age = input("Enter your age")
+name = input("Enter your name:")
+age = input("Enter your age:")
 
 print("The user's name is:", name)
 print("The user's age is:", age)
 
-print("The user name is," + name + " and the user's age is", age)
+
+print("The user name is, " + name + " and the user's age is ", age)

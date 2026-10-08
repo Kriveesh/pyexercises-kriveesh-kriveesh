@@ -34,3 +34,22 @@ def join_strings(first: str, second: str) -> str:
 ```
 
 What is the operator used to concatenate strings in Python?
+
+---
+## 2026-10-08 10:28, in .
+
+**Me:** How to receive inputs from user and print it
+
+**Tutor:**
+
+Receiving inputs from the user is done with the `input()` function.
+
+```python
+# TODO: Ask the user for their name and store it
+user_name = ______
+
+# TODO: Print the name back to the user
+print(______)
+```
+
+What is the function used to get input from the user?
