@@ -118,3 +118,29 @@ def is_even(number):
 ```
 
 Question: What does `number % 2` return when `number` is even?
+
+---
+## 2026-10-08 15:20, in .
+
+**Me:** Why does the third item use position [2]?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-08 15:21, in .
+
+**Me:** What does .sort() do to the list?
+
+**Tutor:**
+
+The concept is **in‑place sorting of a list**.
+
+```python
+numbers = [3, 1, 4, 1, 5]
+numbers.sort()          # TODO: what is the value of numbers after this line?
+print(numbers)
+```
+
+Question: which built-in function is called to sort a list in place?
