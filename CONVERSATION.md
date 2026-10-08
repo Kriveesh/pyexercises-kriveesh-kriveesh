@@ -163,3 +163,20 @@ print(sorted_numbers)  # [9, 5, 4, 3, 1, 1]
 ```
 
 Which built-in function uses `reverse=True` to sort a list in descending order?
+
+---
+## 2026-10-08 15:30, in .
+
+**Me:** What does .pop() do in a dictionary?
+
+**Tutor:**
+
+A dictionary method that removes a key-value pair and returns the value.
+
+```python
+toy = {"name": "alpha", "cost": 200, "revenue": 500}
+# TODO: remove the key 'cost' and keep the returned value
+removed = toy.pop( ??? )
+```
+
+Which argument must you give to .pop()?
