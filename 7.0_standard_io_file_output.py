@@ -29,7 +29,7 @@ DELIVERABLE
     This file, plus the CSV your program produced.
 """
 
-# 1. In:First name, last name, date of birth, and student number.
+# 1. In:First name, last name, date of birth and student number.
 # 2. Process: Check the inputs and append one student entry.
 #    Create the header only when the file is missing or empty.
 #    Ask again if a value is invalid.
