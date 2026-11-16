@@ -438,3 +438,56 @@ print("Worst move:", worst)
 ```
 
 Which function gives the largest value in a list?
+
+---
+## 2026-11-16 23:48, in .
+
+**Me:** what is csv file in python
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-16 23:48, in .
+
+**Me:** how to use for function
+
+**Tutor:**
+
+A **for loop** lets you repeat a block of code for each item in a sequence (list, string, etc.).
+
+```python
+# Example: print every fruit in a list
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)  # TODO: replace print with your own action
+```
+
+What is the loop variable called in this pattern?
+
+---
+## 2026-11-16 23:54, in .
+
+**Me:** what function should be used in names.txt file
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-16 23:55, in .
+
+**Me:** How does .strip() help remove spaces around a name?
+
+**Tutor:**
+
+The `.strip()` method removes leading and trailing whitespace from a string.
+
+```python
+# Example: cleaning a name with extra spaces
+raw_name = "  Alice Wonder  "
+clean_name = raw_name.strip()  # TODO: What does strip() remove?
+```
+
+What does `strip()` remove from a string?

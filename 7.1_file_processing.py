@@ -37,15 +37,68 @@ DELIVERABLE
 """
 
 # What is wrong with names.txt (found by reading it, not by guessing):
-# -
-# -
-# -
-# -
+# - # - There are two blank lines.
+# - Some names have spaces at the beginning.
+# - Capital letters are inconsistent, for example "ada LOVELACE".
+# - The names are not sorted by last name.
 
-# 1. In:
-# 2. Process, problem by problem:
-# 3. Out:
-# 4. How I decide which word is the last name:
+# 1. In:Names read from names.txt, one name per line.
+# 2. Process, problem by problem:#    Skip blank lines.
+#    Remove extra spaces using split() and join().
+#    Correct capitalisation using title(), keeping "van" lowercase.
+#    Sort the cleaned names by surname.
+# 3. Out: names_cleaned.txt, containing eight sorted names.
+#    The original names.txt is not changed.
+# 4. How I decide which word is the last name:I assume the first word is the first name.
+#    Everything after it is the surname.
+#    For example, Guido has the surname "van Rossum".
+#    Names alone cannot prove this rule, but it fits this file.
 
 
 # Your code below
+# Read the original file without changing it.
+with open("names.txt", "r", encoding="utf-8") as file:
+    original_lines = file.readlines()
+
+
+# Remove blank lines and clean the names.
+cleaned_names = []
+blank_lines = 0
+
+for line in original_lines:
+    name = " ".join(line.split())
+
+    if name == "":
+        blank_lines = blank_lines + 1
+        continue
+
+    name = name.title()
+    name = name.replace(" Van ", " van ")
+    cleaned_names.append(name)
+
+
+# Use everything after the first word as the sorting key.
+def get_last_name(name):
+    return name.split(" ", 1)[1].lower()
+
+
+# Sort the names by surname.
+cleaned_names.sort(key=get_last_name)
+
+
+# Save the cleaned names to a different file.
+with open("names_cleaned.txt", "w", encoding="utf-8") as file:
+    for name in cleaned_names:
+        file.write(name + "\n")
+
+
+# Display counts so the difference can be checked.
+print("Original lines:", len(original_lines))
+print("Blank lines removed:", blank_lines)
+print("Output lines:", len(cleaned_names))
+print("First name:", cleaned_names[0])
+print("Last name:", cleaned_names[-1])
+
+# Expected: 10 original lines, 2 blank lines removed, 8 output lines.
+# First entry: Margaret Hamilton.
+# Last entry: Guido van Rossum, because the full surname starts with "van".
