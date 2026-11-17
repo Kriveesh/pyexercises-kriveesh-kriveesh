@@ -657,3 +657,19 @@ except ZeroDivisionError:
 ```
 
 **Question:** What happens if you remove the `except` block and run the code above?
+
+---
+## 2026-11-17 00:30, in .
+
+**Me:** What happens when we divide by zero?
+
+**Tutor:**
+
+Division by zero raises an exception.
+
+```python
+# TODO: uncomment the next line to see the error
+# result = 10 / 0
+```
+
+What exception does Python raise when you divide by zero?
