@@ -6,19 +6,9 @@ WHAT THE PROGRAM MUST DO
 
 ANSWER THESE FIRST, in comments
     1. What goes in?
-    Three permissions for managing a marketing campaign.
     2. What happens to it?
-     Combine view and edit permissions, check publish,
-#    add publish permission, then remove edit permission.
     3. What comes out?
-    The permissions displayed in binary after each step.
     4. What are your permissions about? Not files: invent a set from your own field,
-       such as who may view, edit and publish a campaign.
-       My example permissions:
-#    VIEW: See the campaign.
-#    EDIT: Change the campaign.
-#    PUBLISH: Launch the campaign.
-#    Each permission uses a different bit.
 
 WHAT THE AI CANNOT KNOW
     Your permission set and what each one means in your context.
@@ -29,8 +19,18 @@ CHECK IT YOURSELF
 DELIVERABLE
     This file, with your comments and your code.
 """
+# 1. In: Three permissions for managing a marketing campaign.
+# 2. Process: Combine view and edit permissions, check publish,
+#    add publish permission, then remove edit permission.
+# 3. Out: The permissions displayed in binary after each step.
+# 4. My example permissions:
+#    VIEW: See the campaign.
+#    EDIT: Change the campaign.
+#    PUBLISH: Launch the campaign.
+#    Each permission uses a different bit.
 
 # Your code below
+
 VIEW = 1       # 001
 EDIT = 2       # 010
 PUBLISH = 4    # 100
