@@ -6,17 +6,9 @@ WHAT THE PROGRAM MUST DO
 
 ANSWER THESE FIRST, in comments
     1. What goes in?
-     In: Two strings, "apple" and "Apple".
     2. What happens to it?
-     Process: Compare them using six comparison operators.
-#    Combine comparison results using and, or, and not.
     3. What comes out?
-    A readable table showing each expression and its result.
     4. Which two values did you pick, and which comparison result surprised you?
-     Chosen values: "apple" and "Apple".
-#    A potentially surprising result is "apple" > "Apple".
-#    Lowercase "a" has a higher character code than uppercase "A".
-#    After running, add which result actually surprised you.
 
 WHAT THE AI CANNOT KNOW
     Your two values. Pick a pair where the answer is not obvious: two strings with
@@ -30,6 +22,14 @@ DELIVERABLE
     This file, with your comments and your code.
 """
  
+# 1. In: Two strings, "apple" and "Apple".
+# 2. Process: Compare them using six comparison operators.
+#    Combine comparison results using and, or, and not.
+# 3. Out: A readable table showing each expression and its result.
+# 4. Chosen values: "apple" and "Apple".
+#    A potentially surprising result is "apple" > "Apple".
+#    Lowercase "a" has a higher character code than uppercase "A".
+#    After running, add which result actually surprised you.
 
 # Your code below
 
